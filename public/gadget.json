@@ -1,0 +1,167 @@
+[
+  {
+    "id": 1,
+    "product_title": "UltraFast Laptop",
+    "product_image": "https://i.ibb.co.com/CQXDVV4/png-transparent-gaming-laptop-gl702-asus-republic-of-gamers-intel-core-i7-win-battle-ram-electronics.png",
+    "category": "Laptops",
+    "price": 850.0,
+    "description": "High-performance laptop with Intel i7 processor and 16GB RAM.",
+    "specification": ["Intel i7", "16GB RAM", "512GB SSD"],
+    "availability": "In Stock",
+    "rating": 4.2
+  },
+  {
+    "id": 2,
+    "product_title": "iPhone 14 Pro",
+    "product_image": "https://i.ibb.co.com/3d6Nd2C/iphone-14-pro-and-max-deep-purple-png-704081694621850q0ub3cabmx.png",
+    "category": "iPhones",
+    "price": 1199.0,
+    "description": "Latest iPhone with 5G and improved camera system.",
+    "specification": ["5G", "128GB storage", "Triple camera"],
+    "availability": "In Stock",
+    "rating": 4.8
+  },
+  {
+    "id": 3,
+    "product_title": "ProMax Smartphone",
+    "product_image": "https://i.ibb.co.com/HxR4VbD/png-transparent-huawei-y6ii-compact-smartphone-android-huawei-y-6-2018-dual-sim-4g-16gb-blue-hardwar.png",
+    "category": "Phones",
+    "price": 899.0,
+    "description": "Premium smartphone with a top-notch camera and display.",
+    "specification": ["5G", "128GB storage", "Triple camera"],
+    "availability": "In Stock",
+    "rating": 4.6
+  },
+  {
+    "id": 4,
+    "product_title": "MacBook Pro 14",
+    "product_image": "https://i.ibb.co.com/5BFVW4k/png-transparent-mac-book-pro-macbook-pro-15-4-inch-laptop-macbook-air-macbook-pro-13inch-electronics.png",
+    "category": "MacBooks",
+    "price": 1199.0,
+    "description": "Apple's latest MacBook Pro with M1 Pro chip.",
+    "specification": ["M1 Pro", "16GB RAM", "512GB SSD"],
+    "availability": "In Stock",
+    "rating": 4.9
+  },
+  {
+    "id": 5,
+    "product_title": "Fitness Watch",
+    "product_image": "https://i.ibb.co.com/R9WFwhw/png-transparent-activity-tracker-fitbit-physical-fitness-pedometer-heart-rate-fitbit-electronics-phy.png",
+    "category": "Smartwatches",
+    "price": 399.0,
+    "description": "Smartwatch for fitness tracking with heart rate monitor.",
+    "specification": ["Heart rate monitor", "GPS", "Water-resistant"],
+    "availability": "In Stock",
+    "rating": 4.7
+  },
+  {
+    "id": 6,
+    "product_title": "Wireless Earbuds",
+    "product_image": "https://i.ibb.co.com/hfwVf6f/610-6107839-liberty-01-anker-true-wireless-earbuds-hd-png.jpg",
+    "category": "Accessories",
+    "price": 349.99,
+    "description": "Noise-canceling wireless earbuds with Bluetooth 5.0.",
+    "specification": ["Bluetooth 5.0", "20-hour battery", "Touch controls"],
+    "availability": "In Stock",
+    "rating": 4.9
+  },
+  {
+    "id": 7,
+    "product_title": "Compact Phone",
+    "product_image": "https://i.ibb.co.com/Wnq9rVx/Realistic-smartphone-isolated-on-transparent-background-PNG.png",
+    "category": "Phones",
+    "price": 599.0,
+    "description": "Compact smartphone with a dual camera and high performance.",
+    "specification": ["5G", "64GB storage", "Dual camera"],
+    "availability": "In Stock",
+    "rating": 4.5
+  },
+  {
+    "id": 8,
+    "product_title": "Sport Watch",
+    "product_image": "https://i.ibb.co.com/4Wr96vZ/png-transparent-watch-digital-clock-fashion-water-resistant-mark-sport-watch-watch-accessory-sport-f.png",
+    "category": "Smartwatches",
+    "price": 279.99,
+    "description": "Sport-focused smartwatch with extended battery life.",
+    "specification": ["Step tracker", "SpO2 monitor"],
+    "availability": "In Stock",
+    "rating": 4.3
+  },
+  {
+    "id": 9,
+    "product_title": "Gaming Beast Laptop",
+    "product_image": "https://i.ibb.co.com/Cw4CcW7/kisspng-laptop-macbook-air-chromebook-pixel-notebook-5aa1d9417bcb49-3100660915205563535071.jpg",
+    "category": "Laptops",
+    "price": 1399.0,
+    "description": "Gaming laptop with RTX graphics card and RGB keyboard.",
+    "specification": ["Intel i9", "32GB RAM", "1TB SSD", "RTX 3070"],
+    "availability": "In Stock",
+    "rating": 4.7
+  },
+  {
+    "id": 10,
+    "product_title": "MacBook Pro M2",
+    "product_image": "https://i.ibb.co.com/S0nrTZR/images.jpg",
+    "category": "MacBooks",
+    "price": 1999.0,
+    "description": "Powerful laptop with M2 chip, ideal for creative professionals.",
+
+    "specification": [
+      "14 inches, Retina",
+      "Apple M2",
+      "16GB",
+      "512GB SSD",
+      "20 hours"
+    ],
+    "availability": "In Stock",
+    "rating": 4.8
+  },
+  {
+    "id": 11,
+    "product_title": "iPhone 11",
+    "product_image": "https://i.ibb.co.com/SdmcsG3/583-5831368-iphone-11-purple-back-hd-png-download.png",
+    "category": "iPhones",
+    "price": 1099.0,
+    "description": "Latest iPhone with 5G and improved camera system.",
+    "specification": ["5G", "128GB storage", "Double camera"],
+    "availability": "In Stock",
+    "rating": 4.6
+  },
+  {
+    "id": 12,
+    "product_title": "Gaming Keyboard",
+    "product_image": "https://i.ibb.co.com/FK4QyNp/png-transparent-amazon-com-computer-keyboard-gaming-keypad-rgb-color-model-electrical-switches-compu.png",
+    "category": "Accessories",
+    "price": 225.99,
+    "description": "Mechanical keyboard with RGB lighting for gaming.",
+    "specification": [
+      "Mechanical switches",
+      "RGB lighting",
+      "Ergonomic design"
+    ],
+    "availability": "In Stock",
+    "rating": 4.8
+  },
+  {
+    "id": 13,
+    "product_title": "Portable Notebook",
+    "product_image": "https://i.ibb.co.com/qYRTj9K/png-transparent-laptop-kaby-lake-hewlett-packard-hp-envy-13-ad000-series-laptop-electronics-netbook.png",
+    "category": "Laptops",
+    "price": 750,
+    "description": "Lightweight notebook for daily tasks with Intel i5 processor.",
+    "specification": ["Intel i5", "8GB RAM", "256GB SSD"],
+    "availability": "In Stock",
+    "rating": 4.8
+  },
+  {
+    "id": 14,
+    "product_title": "ZoomX Phone",
+    "product_image": "https://i.ibb.co.com/hWWqQj0/png-transparent-redmi-note-8-redmi-mobile-xiaomi-smartphone-camera-android-phone-device-digital-thum.png",
+    "category": "Phones",
+    "price": 1599.0,
+    "description": "Phone with periscope zoom and high-resolution display.",
+    "specification": ["5G", "256GB storage", "Periscope zoom"],
+    "availability": "In Stock",
+    "rating": 4.5
+  }
+]
