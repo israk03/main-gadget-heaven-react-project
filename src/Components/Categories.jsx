@@ -3,7 +3,7 @@ import "../App.css";
 
 const Categories = ({ categories = [] }) => {
   if (!Array.isArray(categories)) {
-    console.error("Expected 'categories' to be an array, but got:", categories);
+    // console.error("Expected 'categories' to be an array, but got:", categories);
     return null;
   }
   return (

@@ -7,7 +7,9 @@ const Home = () => {
   useEffect(() => {
     document.title = "Home | Gadget Heaven";
   });
-  const categories = useLoaderData();
+  // const categories = useLoaderData();
+  const categories = Array.isArray(useLoaderData()) ? useLoaderData() : [];
+
   return (
     <div className="">
       <div className="bg-violet-500 pt-7 pb-56 rounded-b-xl">
