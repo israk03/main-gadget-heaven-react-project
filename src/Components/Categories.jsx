@@ -1,7 +1,11 @@
 import { NavLink } from "react-router-dom";
 import "../App.css";
 
-const Categories = ({ categories }) => {
+const Categories = ({ categories = [] }) => {
+  if (!Array.isArray(categories)) {
+    console.error("Expected 'categories' to be an array, but got:", categories);
+    return null;
+  }
   return (
     <div>
       {categories.map((category) => (
