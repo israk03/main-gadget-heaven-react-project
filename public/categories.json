@@ -18,17 +18,17 @@
   {
     "id": 4,
     "category": "Smartwatches",
-    "slug": "Smart Watches"
+    "slug": "Smartwatche"
   },
 
   {
     "id": 6,
     "category": "MacBooks",
-    "slug": "Macbook"
+    "slug": "MacBooks"
   },
   {
     "id": 7,
     "category": "iPhones",
-    "slug": "IPhones"
+    "slug": "iPhones"
   }
 ]

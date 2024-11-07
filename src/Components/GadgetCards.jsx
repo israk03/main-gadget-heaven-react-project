@@ -1,6 +1,7 @@
 import { useLoaderData, useParams } from "react-router-dom";
 import Card from "../Components/Card";
 import { useEffect, useState } from "react";
+import NotFound from "../Pages/NotFound";
 
 const GadgetCards = () => {
   const gadget = useLoaderData();
@@ -10,7 +11,7 @@ const GadgetCards = () => {
   useEffect(() => {
     if (category) {
       const filteredByCategory = [...gadget].filter(
-        (gadget) => gadget.category === category
+        (gadget) => gadget.category == category
       );
       setGadgetitem(filteredByCategory);
     } else {
@@ -18,8 +19,8 @@ const GadgetCards = () => {
     }
   }, [category, gadget]);
 
-  if (!Array.isArray(gadgetitem) || gadgetitem.length === 0) {
-    return <p>No gadgets available.</p>;
+  if (!Array.isArray(gadgetitem) || gadgetitem.length == 0) {
+    return <NotFound></NotFound>;
   }
 
   return (
