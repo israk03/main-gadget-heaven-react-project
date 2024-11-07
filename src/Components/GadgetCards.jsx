@@ -3,7 +3,7 @@ import Card from "../Components/Card";
 import { useEffect, useState } from "react";
 
 const GadgetCards = () => {
-  const gadget = useLoaderData();
+  const gadget = useLoaderData() || [];
   const { category } = useParams();
   const [gadgetitem, setGadgetitem] = useState([]);
   console.log(gadgetitem);

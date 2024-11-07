@@ -3,7 +3,6 @@ import { useLoaderData, useParams } from "react-router-dom";
 import { MdShoppingCart } from "react-icons/md";
 import { MdFavoriteBorder } from "react-icons/md";
 import { addCard, addWhistList, getWishList } from "../Utilities/utilities";
-import { toast } from "react-toastify";
 
 const GadgetDetails = () => {
   const allGadget = useLoaderData();

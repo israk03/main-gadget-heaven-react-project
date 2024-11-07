@@ -15,13 +15,13 @@ const Dashboard = () => {
 
   const [card, setCard] = useState([]);
   useEffect(() => {
-    const addToCard = getAllCard();
+    const addToCard = getAllCard() || [];
     setCard(addToCard);
   }, []);
 
   const [wish, setWish] = useState([]);
   useEffect(() => {
-    const addToWish = getWishList();
+    const addToWish = getWishList() || [];
     setWish(addToWish);
   }, []);
 
