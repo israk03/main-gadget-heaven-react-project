@@ -20,11 +20,9 @@ const GadgetCards = () => {
 
   return (
     <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4">
-      {Array.isArray(gadgetitem) && gadgetitem.length > 0 ? (
-        gadgetitem.map((gadgets) => <Card key={gadgets.id} gadgets={gadgets} />)
-      ) : (
-        <p>No gadgets available.</p>
-      )}
+      {gadgetitem.map((gadgets) => (
+        <Card key={gadgets.id} gadgets={gadgets} />
+      ))}
     </div>
   );
 };
