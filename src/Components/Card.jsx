@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
-const Card = ({ gadgets }) => {
-  const { id, product_image, price, product_title } = gadgets;
+const Card = ({ gadget }) => {
+  const { id, product_image, price, product_title } = gadget;
 
   return (
     <div className="bg-white shadow-lg rounded-lg p-3 mb-3 w-full mx-auto">

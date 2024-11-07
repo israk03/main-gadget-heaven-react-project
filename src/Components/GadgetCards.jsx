@@ -18,13 +18,15 @@ const GadgetCards = () => {
     }
   }, [category, gadget]);
 
+  if (!Array.isArray(gadgetitem) || gadgetitem.length === 0) {
+    return <p>No gadgets available.</p>;
+  }
+
   return (
     <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4">
-      {Array.isArray(gadgetitem) && gadgetitem.length > 0 ? (
-        gadgetitem.map((gadgets) => <Card key={gadgets.id} gadgets={gadgets} />)
-      ) : (
-        <p>No gadgets available.</p>
-      )}
+      {gadgetitem.map((gadget) => {
+        return <Card key={gadget.id} gadget={gadget} />;
+      })}
     </div>
   );
 };
