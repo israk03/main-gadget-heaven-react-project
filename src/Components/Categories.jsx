@@ -9,7 +9,7 @@ const Categories = ({ categories = [] }) => {
       {Array.isArray(categories) ? (
         categories.map((category) => (
           <NavLink
-            to={`/category/${category.category}`}
+            to={`/category/${categories.category}`}
             key={category.id}
             className="bg-gray-200 py-3 rounded-full"
           >
