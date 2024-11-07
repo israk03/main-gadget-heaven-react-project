@@ -8,7 +8,7 @@ const Categories = ({ categories = [] }) => {
     <div>
       {categories.map((category) => (
         <NavLink
-          to={`/category/${category.category}`} // Corrected the reference to category
+          to={`/category/${category.slug}`} // Use the slug for the category URL
           key={category.id}
           className="bg-gray-200 py-3 rounded-full"
         >
