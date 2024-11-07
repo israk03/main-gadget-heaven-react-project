@@ -15,7 +15,7 @@ const Card = ({ gadget }) => {
       <div className="p-4">
         <h2 className="text-lg font-bold">{product_title}</h2>
         <p className="text-gray-500 mt-1">Price: ${price}</p>
-        <Link to={`/gadgets/${id}`}>
+        <Link to={`/gadget/${id}`}>
           <button className="border border-violet-500 text-violet-500 py-2 px-5 rounded-full font-bold mt-3 hover:bg-violet-50 transition">
             View Details
           </button>

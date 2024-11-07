@@ -20,7 +20,7 @@ const Navbar = () => {
 
   return (
     <div
-      className={`  ${
+      className={`${
         [
           "/",
           "/category/All-Products",
@@ -34,7 +34,7 @@ const Navbar = () => {
         "bg-violet-500 rounded-t-xl text-white mt-5 lg:px-5"
       }`}
     >
-      <div className="navbar w-11/12 mx-auto py-4">
+      <div className="navbar w-10/12 mx-auto py-4">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
