@@ -1,5 +1,7 @@
 # Gadget Heaven - E-Commerce Platform
 
+<!-- test -->
+
 ## Live Website Link
 
 [Visit Gadget Heaven](#)
@@ -30,3 +32,4 @@ Data is managed through the **Context API** and **LocalStorage**:
 3. **Shopping Cart and Wishlist**: Users can add items to their cart or wishlist, and view or manage these items on dedicated pages.
 4. **Data Persistence**: Cart and wishlist data are stored in LocalStorage, ensuring items remain saved even after a page refresh.
 5. **Error Handling and Edge Cases**: The site handles various edge cases, such as price limits and reload functionality, to provide a smooth user experience.
+// redeploy trigger
